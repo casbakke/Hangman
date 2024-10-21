@@ -1,5 +1,6 @@
 # import modules
 import tkinter as tk
+from os import path
 import json, random
 
 #------------------------#
@@ -25,13 +26,13 @@ window.minsize(width = 1280, height = 720)
 window.maxsize(width = 1280, height = 720)
 
 # declare image presets
-hangman0 = tk.PhotoImage(file = "images\\phillip (1).png")
-hangman1 = tk.PhotoImage(file = "images\\phillip (2).png")
-hangman2 = tk.PhotoImage(file = "images\\phillip (3).png")
-hangman3 = tk.PhotoImage(file = "images\\phillip (4).png")
-hangman4 = tk.PhotoImage(file = "images\\phillip (5).png")
-hangman5 = tk.PhotoImage(file = "images\\phillip (6).png")
-hangman6 = tk.PhotoImage(file = "images\\phillip (7).png")
+hangman0 = tk.PhotoImage(file = path.join("images", "phillip (1).png"))
+hangman1 = tk.PhotoImage(file = path.join("images", "phillip (1).png"))
+hangman2 = tk.PhotoImage(file = path.join("images", "phillip (1).png"))
+hangman3 = tk.PhotoImage(file = path.join("images", "phillip (1).png"))
+hangman4 = tk.PhotoImage(file = path.join("images", "phillip (1).png"))
+hangman5 = tk.PhotoImage(file = path.join("images", "phillip (1).png"))
+hangman6 = tk.PhotoImage(file = path.join("images", "phillip (1).png"))
 
 #------------------------#
 
